@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "Worklog & Status Reporter for Jira",
+  "version": "1.0.0",
+  "description": "Reports Jira Cloud can't produce natively: hours grouped by worklog author, and time-in-status from the changelog. Fully client-side.",
+  "permissions": [
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.atlassian.net/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Worklog & Status Reporter (open panel)"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.atlassian.net/*"
+      ],
+      "js": [
+        "src/util.js",
+        "src/query.js",
+        "src/api.js",
+        "src/reports.js",
+        "src/panel.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/panel.css"
+      ],
+      "matches": [
+        "https://*.atlassian.net/*"
+      ]
+    }
+  ],
+  "commands": {
+    "toggle-panel": {
+      "suggested_key": {
+        "default": "Alt+Shift+J"
+      },
+      "description": "Toggle the report panel"
+    }
+  }
+}
