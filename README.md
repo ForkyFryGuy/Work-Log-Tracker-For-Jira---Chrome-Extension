@@ -18,11 +18,12 @@ already have. Nothing but your own settings is ever stored, and nothing is ever
 sent anywhere.
 ## Pictures
 
+<img width="2244" height="1235" alt="Screenshot_2026-08-13_20-22-15" src="https://github.com/user-attachments/assets/374547e4-bd0a-4fa8-a8b2-da312e03cfd1" />
 <img width="2244" height="1235" alt="Screenshot_2026-08-13_20-23-34" src="https://github.com/user-attachments/assets/ff575ccf-eb62-46b5-b0e1-b1991e0ed145" />
 <img width="2244" height="1235" alt="Screenshot_2026-08-13_20-19-20" src="https://github.com/user-attachments/assets/c322017c-be4c-48da-abee-a7ee3958747e" />
 <img width="2244" height="1235" alt="Screenshot_2026-08-13_20-27-15" src="https://github.com/user-attachments/assets/7389b45c-158d-4555-904c-fdb248f672f4" />
 <img width="2244" height="1235" alt="Screenshot_2026-08-13_20-25-36" src="https://github.com/user-attachments/assets/44f5e4e5-fc3c-4df8-ba48-b7fc5ca4923b" />
-<img width="2244" height="1235" alt="Screenshot_2026-08-13_20-22-15" src="https://github.com/user-attachments/assets/374547e4-bd0a-4fa8-a8b2-da312e03cfd1" />
+
 
 ## Install
 
